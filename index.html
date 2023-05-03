@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator - Create Your Own QR Code</title>
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Font Link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>QR Code Generator</h2>
+        <span>Paste A URL or Enter Text to create QR Code</span>
+        <div class="qr-code-input">
+            <input type="text" id="input-text" placeholder="Enter Text"><br>
+            <button id="generate-btn">Generate</button>
+        </div>
+        
+        <p id="error"></p>
+        
+        <div class="qr-code-img">
+            <img src="" alt="QR Code Image" id="qr-img"><br>
+        </div>
+        <a href="" id="download-btn" download="QR-Code">Download</a>
+    </div>
+
+    <!-- Custom Js File  -->
+    <script src="js/script.js"></script>
+</body>
+</html>
